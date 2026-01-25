@@ -1,1 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Our Memories</title>
 
+<style>
+  body {
+    background: #ffe6f2;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    animation: fadeIn 2s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+  img {
+    width: 80%;
+    border-radius: 10px;
+    margin: 10px 0;
+    animation: fadeIn 2s ease-in-out;
+  }
+
+  p {
+    font-size: 20px;
+    color: #444;
+    animation: heartbeat 2s infinite;
+  }
+
+  @keyframes heartbeat {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.05);}
+    100% {transform: scale(1);}
+  }
+
+  button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #ff99c8;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+  }
+</style>
+</head>
+
+<body>
+
+<img src="photo1.jpg">
+<img src="photo2.jpg">
+<img src="photo3.jpg">
+
+<p>
+I love making memories with you sweetheart,  
+and I hope we can make new ones for the rest of our life.  
+(Also you're very cute, mwaah)
+</p>
+
+<button onclick="window.location.href='page4.html'">Continue</button>
+
+</body>
+</html>
