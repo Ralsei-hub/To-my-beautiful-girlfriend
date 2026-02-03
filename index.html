@@ -57,7 +57,16 @@
 
 <body>
 
-<audio autoplay loop src="Mitski.mp3"></audio>
+<audio id="bgm" loop>
+  <source src="Mitski.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+  document.addEventListener("click", function() {
+    document.getElementById("bgm").play();
+  }, { once: true });
+</script>
+
 
 <img src="IMG_8453.gif">
 
